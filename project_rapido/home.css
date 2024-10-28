@@ -1,0 +1,104 @@
+html{
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+.rapido_img{
+    height: 100px;
+    width:130px;
+    margin-bottom: -20px;
+    margin-top:-20px;
+    margin-left:90px;
+ }
+ .navbar-nav{
+    width: 900px;
+    justify-content: space-evenly ;
+ }
+ .nav-link{
+    font-weight: bold;
+    color: black;
+ }
+ .down{
+    margin-left: 40px;
+    background-color: black;
+    border-radius: 60px 60px 0px 60px;
+    padding: 0px 10px 0px 10px;
+    
+ }
+ 
+ .top{
+    position: fixed;
+    width: 1500px;
+    z-index: 3 ;
+    /* border: 2px solid black; */
+    top:0px;
+ }
+.yellow{
+    position: absolute;
+    background-color: goldenrod;
+    height:780px;
+    width:670px;
+    margin-left: 700px;
+    rotate:50deg;
+    z-index: -1 ;
+    margin-top: -220px;
+    border-radius: 0px 0px 350px 350px;
+    /* animation: back 3s timing-function delay iteration-count direction fill-mode; */
+    animation: example 1s 1s ease-in-out ;
+}
+@keyframes example {
+   0%{top:-100px;right:-100px;}
+    100% { top:85px;right:-22px;}
+  }
+.yellow .bike{
+    position: absolute;
+    margin-top: 200px;
+    rotate:-50deg;
+    height: 550px;
+    width: 800px;
+    margin-left: -0px;
+    z-index: -2 ;
+    
+    
+}
+.butt{
+    border-radius: 50px 50px 50px 0px;
+    font-size: medium;
+}
+.but{
+    border-radius: 50px 50px 0px 50px;
+    font-size: medium;
+}
+
+.content{
+    animation: content 1s 1s  ease-in-out ;
+}
+
+@keyframes content {
+    0%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    
+}
+.img1{
+    margin-bottom:500px;
+    margin-right: 7px;
+    border-radius: 100px 100px 5px 100px;
+
+}
+.img2{
+   
+    margin-top:0px;
+    border-radius: 5px 100px 100px 100px;
+}
+
+.presence .h2{
+    /* margin-left: 150px; */
+ 
+    margin-top:-150px;
+}
+.presence p{
+    margin-left: 150px;
+    margin-top:-0px;
+}

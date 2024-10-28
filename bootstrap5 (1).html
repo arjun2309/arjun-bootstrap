@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <!--spinner-->
+    <div class="container mt-3">
+        <h2>Spinners</h2>
+        <div class="spinner-border text-primary"></div><br>
+        <div class="spinner-border text-success"></div>
+    </div>
+
+    <!--growing spinner-->
+    <div class="container mt-3">
+        <h2>Growing Spinners</h2>
+        <p>Use the <code>.spinner-grow</code> class if you want the spinner/loader to grow instead of "spin":</p>
+        <div class="spinner-grow text-muted"></div>
+        <div class="spinner-grow text-primary"></div>
+        <div class="spinner-grow text-success"></div>
+        <div class="spinner-grow text-info"></div>
+        <div class="spinner-grow text-warning"></div>
+        <div class="spinner-grow text-danger"></div>
+        <div class="spinner-grow text-secondary"></div>
+        <div class="spinner-grow text-dark"></div>
+        <div class="spinner-grow text-light"></div>
+    </div>
+
+    <!--spinner size-->
+    <div class="container mt-3">
+        <h2>Spinner Size</h2>
+        <p>Use <code>.spinner-border-sm</code> or <code>.spinner-grow-sm</code> to create a smaller spinner:</p>
+        <div class="spinner-border spinner-border-sm"></div>
+        <div class="spinner-grow spinner-grow-sm"></div>
+    </div>
+
+    <!--pagination-->
+    <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+
+    <!--activate state-->
+    <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item active"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+
+    <!--disable-->
+    <ul class="pagination">
+        <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+
+    <!--pagination size-->
+    <ul class="pagination pagination-lg">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+    <ul class="pagination pagination-sm">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+
+    <!--align-->
+    <div class="container mt-3">
+        <h2>Pagination</h2>
+        <p>Use utilitiy classes to change the alignment of the pagination:</p>
+        <ul class="pagination">
+            <li class="page-item"><a class="#">Previous</a></li>
+            <li class="page-item"><a class="#">1</a></li>
+            <li class="page-item"><a class="#">2</a></li>
+            <li class="page-item"><a class="#">Next</a></li>
+        </ul>
+        <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link">Previous</a></li>
+            <li class="page-item"><a class="#">1</a></li>
+            <li class="page-item"><a class="#">2</a></li>
+            <li class="page-item"><a class="#">Next</a></li>
+        </ul>
+        <ul class="pagination justify-content-end">
+            <li class="page-item"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+            <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+            <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+        </ul>
+    </div>
+
+    <!--Breadcrumbs-->
+    <div class="container mt-3">
+        <h2>Breadcrumbs</h2>
+        <p>The .breadcrumb class indicates the current page's location within a navigational hierarchy:</p>
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Photos</a></li>
+            <li class="breadcrumb-item"><a href="#">Summer 2017</a></li>
+            <li class="breadcrumb-item"><a href="#">Italy</a></li>
+            <li class="breadcrumb-item">Rome</li>
+        </ul>
+    </div>
+
+    <!--List Groups-->
+    <div class="container mt-3">
+        <h2>Basic List Group</h2>
+        <ul class="list-group list-stripped">
+            <li class="list-group-item">First item</li>
+            <li class="list-group-item">Second item</li>
+            <li class="list-group-item">Third item</li>
+        </ul>
+    </div>
+    <div class="container mt-3">
+        <ol class="list-group list-group-numbered">
+            <li class="list-group-item">First item</li>
+            <li class="list-group-item">Second item</li>
+            <li class="list-group-item">Third item</li>
+        </ol>
+    </div>
+
+    <!--horizontal-->
+    <div class="container mt-3">
+        <h2>Horizontal List Groups</h2>
+        <p>The .list-group-horizontal class displays the list items horizontally instead of vertically:</p>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item">First item</li>
+            <li class="list-group-item">Second item</li>
+            <li class="list-group-item">Third item</li>
+            <li class="list-group-item">Fourth item</li>
+        </ul>
+    </div><br>
+
+    <!--color list-->
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-success">Success item</li>
+        <li class="list-group-item list-group-item-secondary">Secondary item</li>
+        <li class="list-group-item list-group-item-info">Info item</li>
+    </ul>
+
+    <!--List with badges-->
+    <div class="container mt-3">
+        <h2>List Group With Badges</h2>
+        <p>Combine .badge classes with utility/helper classes to add badges inside the list group:</p>
+        <ul class="list-group">
+            <li class="list-group-item ">
+                Inbox
+                <span class="badge bg-primary rounded-pill">12</span>
+            </li>
+        </ul>
+    </div>
+
+    <!--card-->
+    <div class="container m-3">
+        <h2>Basic Card</h2>
+        <div class="card">
+            <div class="card-body">Basic card</div>
+        </div>
+    </div>
+
+    <!--Header & footer-->
+    <div class="container m-3" style="width:300px;">
+        <h2>Card Header and Footer</h2>
+        <div class="card">
+            <div class="card-header text-center bg-success">Header</div>
+            <div class="card-body mx-3">
+                <img src="/taskimages/4.jpg" width=200px; height="200px;">
+            </div>
+            <div class=" text-center card-footer">Footer</div>
+        </div>
+    </div>
+
+    <!-- color cards -->
+    <div class="container mt-3">
+        <h2>Cards with Contextual Classes</h2>
+        <div class="card">
+            <div class="card-body">Basic card</div>
+        </div>
+        <br>
+        <div class="card bg-primary text-white">
+            <div class="card-body">Primary card</div>
+        </div>
+        <br>
+        <div class="card bg-success text-white">
+            <div class="card-body">Success card</div>
+        </div>
+        <br>
+        <div class="card bg-info text-white">
+            <div class="card-body">Info card</div>
+        </div>
+        <br>
+        <div class="card bg-warning text-white">
+            <div class="card-body">Warning card</div>
+        </div>
+        <br>
+        <div class="card bg-danger text-white">
+            <div class="card-body">Danger card</div>
+        </div>
+        <br>
+        <div class="card bg-secondary text-white">
+            <div class="card-body">Secondary card</div>
+        </div>
+        <br>
+        <div class="card bg-dark text-white">
+            <div class="card-body">Dark card</div>
+        </div>
+        <br>
+        <div class="card bg-light text-dark">
+            <div class="card-body">Light card</div>
+        </div>
+    </div>
+
+    <!-- card title -->
+    <div class="container mt-3">
+        <h2>Card titles, text, and links</h2>
+        <p>Use .card-title to add card titles to any heading element. The .card-text class is used to remove bottom margins
+            for a p element if it is the last child (or the only one) in card-body. The .card-link class adds a blue color
+            to any link, and a hover effect.</p>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p>Some example text. Some example text.</p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+    </div>
+
+    <!--Image card-->
+    <div class="cards">
+        <div class="container mt-3">
+    
+            <h2>Card Image</h2>
+            <p>Image at the top (card-img-top):</p>
+            <div class="card" style="width:400px">
+    
+                <img class="card-img-top" src="./project_rapido/images/home_img_new.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+    
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    <a href="#" class=" btn btn-primary ">See Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- img bottom -->
+    <div class="card" style="width:400px">
+    
+        <div class="card-body">
+            <h4 class="card-title">Jane Doe</h4>
+            <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+        <img class="card-img-bottom" src="/taskimages/slide1.avif" alt="Card image" style="width:100%">
+    </div>
+
+    <!--Card Image Overlays-->
+    
+    <div class="container mt-3">
+        <h2>Card Image Overlay</h2>
+        <p>Turn an image into a card background and use .card-img-overlay to overlay the card's text:</p>
+        <div class="card" style="width:400px;height: 210px;">
+            <img class="card-img" src="/taskimages/slide2.png" alt="Card image" style="width:100%;height:100%;">
+            <div class="card-img-overlay">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text some example text. Some example text some example text. Some example
+                    text some example text. Some example text some example text.</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+        </div>
+    </div>
+
+    <!--dropdown-->
+    <div class="container mt-3">
+        <h2>Dropdowns</h2>
+        <p>The .dropdown class is used to indicate a dropdown menu.</p>
+        <p>Use the .dropdown-menu class to actually build the dropdown menu.</p>
+        <p>To open the dropdown menu, use a button or a link with a class of .dropdown-toggle and data-toggle="dropdown".
+        </p>
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                <li><a class="dropdown-item" href="#">Link 3</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--dropdown up-->
+    
+    <div class="container mt-3">
+        <h2>Dropdowns</h2>
+        <p>The .dropup class makes the dropdown menu expand upwards instead of downwards:</p>
+        <p>It must be room for the dropup menu to grow. That is why we add some extra lorem ipsum text.</p>
+        <p>Lorem ipsum one more time!</p>
+    
+        <div class="dropup">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                Dropup button
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                <li><a class="dropdown-item" href="#">Link 3</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--dropdown positions-->
+    <div class="container mt-3">
+        <div class="dropdown dropend text-center ">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                Dropend
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Normal</a></li>
+                <li><a class="dropdown-item active" href="#">Active</a></li>
+                <li><a class="dropdown-item disabled" href="#">Disabled</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- drop start -->
+    <div class="dropdown dropstart text-end">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+            Dropend
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Normal</a></li>
+            <li><a class="dropdown-item active" href="#">Active</a></li>
+            <li><a class="dropdown-item disabled" href="#">Disabled</a></li>
+        </ul>
+    </div>
+    </div>
+
+    <!--collapse-->
+    <div class="container mt-3">
+        <h2>Simple Collapsible</h2>
+        <p>Click on the button to toggle between showing and hiding content.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple
+            collapsible</button>
+        <div id="demo" class="collapse">
+            <!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. -->
+            <ul class="bg-secondary p-3 text-center mt-2 list-unstyled">
+            <li>home</li>
+            <li>about</li>
+            <li>contect</li>
+            <li>services</li></ul>
+        </div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ipsam explicabo excepturi accusantium maiores ad in, voluptate quod quibusdam dolor deserunt odit ipsa ullam a ipsum ea reiciendis iusto aut!</div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

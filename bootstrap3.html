@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <!--Typography-->
+    <!--Heading Tags-->
+    <h1>Heading1</h1>
+    <h2>Heading2</h2>
+    <h3>Heading3</h3>
+    <h4>Heading4</h4>
+    <h5>Heading5</h5>
+    <h6>Heading6</h6>
+
+    <!--para tag use heading tags-->
+    <div class="container mt-3">
+        <p class="h1">h1 Bootstrap heading</p>
+        <p class="h2">h2 Bootstrap heading</p>
+        <p class="h3">h3 Bootstrap heading</p>
+        <p class="h4">h4 Bootstrap heading</p>
+        <p class="h5">h5 Bootstrap heading</p>
+        <p class="h6">h6 Bootstrap heading</p>
+    </div>
+
+    <!--Display-->
+    <div class="container mt-3">
+        <h1>Display Headings</h1>
+        <p>Display headings are used to stand out more than normal headings (larger font-size and lighter font-weight):</p>
+        <h6 class="display-1">Display 1</h6>
+        <h1 class="display-2">Display 2</h1>
+        <h1 class="display-3">Display 3</h1>
+        <h2 class="display-4">Display 4</h1>
+        <h1 class="display-5">Display 5</h1>
+        <h1 class="display-6">Display 6</h1>
+    </div>
+
+    <!--small-->
+    <div class="container mt-3">
+        <h1>Smaller, Secondary Text</h1>
+        <p>The small element (and the .small class) is used to create a smaller, secondary text in any heading:</p>
+        <h1>h1 heading <small>secondary text</small></h1>
+        <h2>h2 heading <small>secondary text</small></h2>
+        <h3>h3 heading <small>secondary text</small></h3>
+        <h4>h4 heading <small>secondary text</small></h4>
+        <h5>h5 heading <small>secondary text</small></h5>
+        <h6>h6 heading <small>secondary text</small></h6>
+    </div>
+
+    <!-- mark -->
+    <div class="container mt-3">
+        <h1>Highlight Text</h1>
+        <p>Use the mark element (or the .mark class) to <mark class="bg-primary">highlight</mark> text.</p>
+    </div>
+
+    <!--abbr-->
+    <div class="container mt-3">
+        <h1>Abbreviations</h1>
+        <p>The abbr element is used to mark up an abbreviation or acronym:</p>
+        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+    </div>
+
+    <!--dl-->
+    <div class="container mt-3">
+        <h1>Description Lists</h1>
+        <p>The dl element indicates a description list:</p>
+        <dl>
+            <dt>Coffee</dt>
+            <dd>- black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>- white cold drink</dd>
+        </dl>
+    </div>
+
+    <!--keyboard Input-->
+    <div class="container mt-3">
+        <h1>Keyboard Inputs</h1>
+        <p>To indicate input that is typically entered via the keyboard, use the kbd element:</p>
+        <p>Use <kbd class="bg-success">ctrl + p</kbd> to open the Print dialog box.</p>
+    </div>
+
+    <!--pre-->
+    <div class="container mt-3">
+        <h1>Multiple Code Lines</h1>
+        <p>For multiple lines of code, use the pre element:</p>
+        <pre>
+                Text in a pre element
+            is displayed in a fixed-width
+            font, and it preserves
+            both spaces and
+            line breaks.
+            </pre>
+    </div>
+
+    <!--text-->
+    <div class="container mt-3">
+        <h2>Typography</h2>
+        <p class="text-start">Left-aligned text.</p>
+        <p class="text-end">Right-aligned text.</p>
+        <p class="text-center" >Center-aligned text.</p>
+    </div>
+
+    <!--text decoration-->
+    <div class="container mt-3">
+        <h2>Text Decoration</h2>
+        <p>Use the .text-decoration-none class to remove the underline from a link.</p>
+        <a href="#" class="text-decoration-none text-success">A link without underline.</a>
+    </div>
+
+    <!--text case-->
+    <div class="container mt-3">
+        <h2>Typography</h2>
+        <p class="text-lowercase">Lowercased text.</p>
+        <p class="text-uppercase">Uppercased text.</p>
+        <p class="text-capitalize">capitalized text.</p>
+    </div>
+
+    <!-- list-inline -->
+    <div class="container mt-3">
+        <h2>Typography</h2>
+        <p>The class .list-inline places all list items on a single line, when used together with the .list-inline-item:</p>
+        <ul class="list-inline">
+            <li class="list-inline-item">Coffee</li>
+            <li class="list-inline-item">Tea</li>
+            <li class="list-inline-item">Milk</li>
+        </ul>
+    </div>
+    <!--remove dots from parent-->
+    <div class="container mt-3">
+        <h2>Typography</h2>
+        <p>The class .list-unstyled removes the default list-style and left margin on list items (immediate children only):
+        </p>
+        <ul class="list-unstyled">
+            <li>Coffee</li>
+            <li>Tea
+                <ul>
+                    <li>Black tea</li>
+                    <li>Green tea</li>
+                </ul>
+            </li>
+            <li>Milk</li>
+        </ul>
+    </div>
+
+    <!--opacity colors-->
+    <div class="container mt-3">
+        <h2>Opacity Text Colors</h2>
+        <p>Add 50% opacity for black or white text with the .text-black-50 or .text-white-50 classes:</p>
+        <p class="text-black-50 bg-secondary">Black text with 50% opacity on white background</p>
+        <p class="text-white-50 bg-success">White text with 50% opacity on black background</p>
+    </div>
+    <!--bg color-->
+    <div class="container mt-3">
+        <h2>Background Color with Contrasting Text Color</h2>
+        <p class="text-white bg-primary">This text is important.</p>
+        <!-- not applicable -->
+        <p class="text-bg-success">This text indicates success.</p>
+    </div>
+
+    <!--bg color for shape-->
+    <div class="container mt-3">
+        <h2>Contextual Backgrounds</h2>
+        <p>Use the contextual background classes to provide "meaning through colors".</p>
+        <div class="bg-primary p-3">mohan</div>
+        <div class="bg-success p-3">developer</div>
+     
+    </div>
+
+    <!--Table-->
+    <div class="container mt-3">
+        <h2>Basic Table</h2>
+        <p>The .table class adds basic styling (light padding and horizontal dividers) to a table:</p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- table-striped -->
+    <div class="container mt-3">
+        <h2>Striped Rows</h2>
+        <p>The .table-striped class adds zebra-stripes to a table:</p>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+                <tr>
+                    <td>august</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+                <tr>
+                    <td>september</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!--Table bordered-->
+    <div class="container mt-3">
+        <h2>Bordered Table</h2>
+        <p>The .table-bordered class adds borders on all sides of the table and the cells:</p>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!--table row hover-->
+    <div class="container mt-3">
+        <h2>Hover Rows</h2>
+        <p>The .table-hover class enables a hover state (grey background on mouse over) on table rows:</p>
+        <table class="table table-hover table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!--table-color-->
+    <div class="container mt-3">
+        <h2>Black/Dark Table</h2>
+        <p>The .table-dark class adds a black background to the table:</p>
+        <table class="table table-info">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!--black & stripped-->
+    <div class="container mt-3">
+        <h2>Dark Striped Table</h2>
+        <p>Combine .table-dark and .table-striped to create a dark, striped table:</p>
+        <table class="table table-danger table-striped">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- table responsive -->
+    <!--black & stripped-->
+    <div class="container mt-3">
+        <h2>Dark Striped Table</h2>
+        <p>Combine .table-dark and .table-striped to create a dark, striped table:</p>
+        <table class="table table-responsive">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</html>
